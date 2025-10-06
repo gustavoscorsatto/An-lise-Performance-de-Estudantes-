@@ -1,8 +1,8 @@
 # 📚 Previsão e Análise da Performance de Estudantes com Machine Learning
-✨ Descrição do Projeto
-Este projeto utiliza Machine Learning para prever o desempenho final de estudantes e identificar os fatores mais influentes que determinam suas notas.
 
-O objetivo é fornecer insights acionáveis para que educadores e instituições possam realizar intervenções proativas, focando em alunos que apresentam maior risco de baixo desempenho ou reprovação.
+Este projeto utiliza Machine Learning para prever o desempenho final de estudantes e identificar os fatores que mais influenciam na sua perfomance.
+
+O objetivo é fornecer insights valiosos para que educadores e instituições possam realizar intervenções proativas, focando em alunos que apresentam maior risco de baixo desempenho ou reprovação.
 
 ## 🎯 Objetivos
 Previsão: Construir um modelo de Regressão (ou Classificação, dependendo da sua abordagem) capaz de prever a Nota Final (G3) de um estudante.
