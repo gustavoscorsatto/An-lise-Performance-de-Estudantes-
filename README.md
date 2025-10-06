@@ -40,4 +40,6 @@ Seleção do modelo com melhor desempenho nas métricas de classificação.
 - acro Avg	0.72 (Precision) / 0.66 (Recall) / 0.67 (F1-Score)
 - Weighted Avg	0.73 (Precision) / 0.71 (Recall) / 0.70 (F 1-Score)
 
+5. Criação de um Dashboard Interativo 
+
 
