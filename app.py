@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 import plotly.express as px
 import joblib 
 import os 
@@ -91,7 +90,6 @@ tab1, tab2, tab3 = st.tabs([
     "👥 Equipe de Desenvolvedores"
 ])
 
-# Análise Exploratória dos Dados 
 with tab1:
     st.header("Análise Exploratória dos Dados")
     if total_alunos == 0:
@@ -130,12 +128,6 @@ with tab1:
 # --- ABA DE PREVISÃO ATUALIZADA ---
 with tab2:
     st.header("Previsão de Desempenho do Aluno")
-
-    classificador_rf = RandomForestClassifier()
-    classificador_rf.fit(X_treino, y_treino)
-
-    joblib.dump(classificador_rf, 'modelo_random_forest.pkl')
-    joblib.dump(atrib_pre_Padronizacao.columns.tolist(), 'colunas_modelo.pkl')
     
     if modelo is None or colunas_modelo is None:
         st.error("Arquivos do modelo (`modelo_random_forest.pkl` e `colunas_modelo.pkl`) não encontrados. Por favor, execute o script de treinamento primeiro.")
@@ -188,12 +180,13 @@ with tab3:
     st.header("Equipe de Desenvolvedores")
     st.divider()
     st.markdown("""
-    - **Nome:** Beatriz Yanagihara -**Área:** Marketing
-    - **Nome:** Gustavo Scorsatto - **Área:** Projetos
-    - **Nome:** Lucas Saad - **Área:** Training
-    - **Nome:** Thomas Araújo - **Área:** RH
-    - **Nome:** Tito Amado - Área:** RH
+    - **Nome:** Beatriz Yanagihara - **RA:** 284966 - **Área:** Marketing
+    - **Nome:** Gustavo Scorsatto - **RA:** 175601 - **Área:** Projetos
+    - **Nome:** Lucas Saad - **RA:** 200881 - **Área:** Training
+    - **Nome:** Thomas Araújo - **RA:** 194403 - **Área:** RH
+    - **Nome:** Tito Amado - **RA:** 206488 - **Área:** RH
     """)
+
 
 
 
