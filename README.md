@@ -1,15 +1,14 @@
 # 📚 Previsão e Análise da Performance de Estudantes com Machine Learning
 
-Este projeto utiliza Machine Learning para prever o desempenho final de estudantes e identificar os fatores que mais influenciam na sua perfomance.
+Este projeto utiliza Machine Learning para prever o desempenho final de estudantes e identificar os fatores que mais influenciam no seu desempenho acadêmico.
 
-O objetivo é fornecer insights valiosos para que educadores e instituições possam realizar intervenções proativas, focando em alunos que apresentam maior risco de baixo desempenho ou reprovação.
+O objetivo é fornecer insights valiosos para entender quais são os principais fatores e como podemos melhora-los a fim de obter uma perfomance acadêmica.
 
 ## 🎯 Objetivos
-Previsão: Construir um modelo de Regressão (ou Classificação, dependendo da sua abordagem) capaz de prever a Nota Final (G3) de um estudante.
 
-Análise de Fatores: Realizar uma Análise Exploratória de Dados (EDA) para entender as correlações e os principais preditores de desempenho.
+Classificação: Construir um modelo de Classificação capaz de classificar a nota final (media_final) em: "Péssima, "Ruim", "Média", "Boa" e "Excelente"  
 
-Suporte à Decisão: Criar a base para uma ferramenta que classifique estudantes em grupos de risco (ex: Baixo, Médio, Alto Desempenho) para otimizar o suporte educacional.
+Análise de Fatores: Realizar uma Análise Exploratória de Dados (EDA) para entender as correlações e os principais fatores que influenciam na performance.
 
 ## 💾 Fonte de Dados
 Dataset: Dados Performance de Estudantes (Tratados)
