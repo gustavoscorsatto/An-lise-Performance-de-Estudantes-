@@ -23,11 +23,10 @@ Variável Alvo (Target): media_final (Nota final do terceiro período/semestre).
 1. Pré-processamento de Dados:
 - Tratamento de missing values e outliers.
 - Conversão de variáveis categóricas (One-Hot Encoding).
-- Escalonamento de variáveis numéricas.
 
 2. Análise Exploratória (EDA):
 - Visualização da distribuição das notas.
-- Análise de correlação entre as notas (G1, G2, G3) e outros fatores (ex: failures, famrel, goout).
+- Análise de correlação entre as notas (Nota_1T, Nota_2T, Nota_3T) e outros fatores (ex: tempo_estudo, relacao_familiar, tempo_livre).
 
 3. Modelagem e Treinamento:
 - *Modelos testados: Random Forest Classifier, KNN Classifier, Decision Tree Classifier.
